@@ -3,7 +3,7 @@
 .user-info {
   text-align: center;
   border-bottom: 1px solid $appVeryLightGrey;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
 
   &__avatar {
     background-color: #e5e5e5;
@@ -11,16 +11,21 @@
     border: 0;
     width: 80px;
     height: 80px;
-    margin: 0 auto;
+    margin: 0 auto 10px;
   }
 
   &__name {
     text-align: center;
     font-size: 1rem;
+    margin: 0 0 5px;
   }
 
   &__username {
     font-size: 0.75rem;
+    font-weight: 400;
     color: $appGrey;
+    margin: 0;
   }
 }
+
+//01623 885 445
