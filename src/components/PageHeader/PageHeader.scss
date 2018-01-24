@@ -1,0 +1,9 @@
+@import '../../utils/styles/_variables.scss';
+
+.page-header {
+  &__title {
+    font-size: 1.65rem;
+    font-weight: 400;
+    color: $appGrey;
+  }
+}

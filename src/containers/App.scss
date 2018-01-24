@@ -1,0 +1,12 @@
+@import '../utils/styles/_variables.scss';
+
+.dashboard-app {
+  display: flex;
+  justify-content: flex-start;
+  background-color: $appSoftWhite;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

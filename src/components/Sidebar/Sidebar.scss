@@ -1,0 +1,39 @@
+@import '../../utils/styles/_variables.scss';
+
+.sidebar {
+  border-right: 1px solid $appVeryLightGrey;
+  background-color: $white;
+  width: 225px;
+  padding-top: 30px;
+  padding-bottom: 200px;
+  position: relative;
+
+  &__title {
+    text-align: center;
+    margin: 0 0 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2rem;
+    color: #333;
+  }
+
+  &__sign-out {
+    position: absolute;
+    bottom: 0;
+
+    a {
+      display: block;
+      padding: 20px;
+      color: $appLightGrey;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        color: $appDarkGrey;
+      }
+    }
+  }
+
+  .icon {
+    margin-right: 10px;
+  }
+}

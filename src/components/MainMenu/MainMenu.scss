@@ -1,0 +1,56 @@
+@import '../../utils/styles/_variables.scss';
+
+.main-menu {
+
+  &__list {
+   padding: 0;
+   margin: 0;
+  }
+
+  &__item {
+    list-style: none;
+    border-bottom: 1px solid $appVeryLightGrey;
+    font-size: 0.85rem;
+
+    a {
+      padding: 15px 20px;
+      display: block;
+      color: $appGrey;
+      text-decoration: none;
+      position: relative;
+      transition: all 0.3s ease-in-out;
+
+      &:before,
+      &:after {
+        content: '';
+        position: absolute;
+        z-index: 2;
+        width: 5px;
+      }
+
+      &:before {
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color: $white;
+        transition: background-color 0.3s ease-in-out;
+      }
+
+      &:hover {
+        color: $appDarkGrey;
+
+        &:before {
+          background-color: $appRed;
+        }
+
+        &:after {
+          top: 21px;
+          right: 20px;
+          font-size: 1.15rem;
+          font-family: 'FontAwesome';
+          content: '\f105';
+        }
+      }
+    }
+  }
+}
