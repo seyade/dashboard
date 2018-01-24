@@ -1,0 +1,57 @@
+@import '../../../utils/styles/_variables.scss';
+
+.account-balance {
+  p {
+    margin: 0 0 10px;
+  }
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $appVeryLightGrey;
+  }
+
+  &__title-text {
+    color: $appGrey;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 10px;
+  }
+
+  &__amount {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  &__next-month-title {
+    font-size: 0.7rem;
+    color: $appLightGrey;
+    margin-bottom: 3px;
+  }
+
+  &__next-month-amount,
+  &__days-left {
+    font-weight: 700;
+    color: $appGrey;
+  }
+
+  &__btn {
+    text-decoration: none;
+    font-size: 0.8rem;
+    border: 1px solid $appVeryLightGrey;
+    color: $appLightGrey;
+    border-radius: 4px;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      border: 1px solid $appLightGrey;
+      color: $appGrey;
+    }
+  }
+}
