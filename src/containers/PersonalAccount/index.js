@@ -21,12 +21,15 @@ export default class PersonalAccount extends Component {
       <section className="personal-account">
         <PageHeader text="Personal Account" />
         <article className="app-content">
-          <AccountNumber accNumber={this.state.account.number} />
-          <AccountBalance
-            amount="£170.99"
-            nextMonthAmount="£28.05"
-            daysLeft="17"
-          />
+          <div className="app-content__top-bar">
+            <AccountNumber accNumber={this.state.account.number} />
+            <AccountBalance
+              amount="£170.99"
+              nextMonthAmount="£28.05"
+              daysLeft="17"
+            />
+          </div>
+          <div className="app-content__bottom-bar"></div>
         </article>
       </section>
     );
