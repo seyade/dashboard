@@ -1,0 +1,22 @@
+{
+  "name": "dashboard",
+  "description": "a dashboard made with React",
+  "main": "",
+  "authors": [
+    "seyade <s.adegun@levraiinteractive.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/seyade/dashboard",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "components-font-awesome": "^4.7.0"
+  }
+}

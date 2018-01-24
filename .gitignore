@@ -3,6 +3,10 @@
 # dependencies
 /node_modules
 
+# ui dependencies
+/bower_components
+/src/assets/bower_components
+
 # testing
 /coverage
 
