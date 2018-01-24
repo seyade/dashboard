@@ -9,7 +9,7 @@ import Adapter from 'enzyme-adapter-react-16';
 
 // elements
 import Sidebar from './index';
-import UserInfo from '../UserInfo';
+import UserInfo from '../../containers/UserInfo';
 
 configure({ adapter: new Adapter() });
 

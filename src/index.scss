@@ -1,5 +1,12 @@
 @import './utils/styles/_variables.scss';
 
+* {
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -9,4 +16,8 @@ body {
 
 html, body {
   font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
 }

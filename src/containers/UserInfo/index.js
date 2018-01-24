@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './UserInfo.scss';
 
 export default class UserInfo extends Component {
@@ -26,3 +27,9 @@ export default class UserInfo extends Component {
     );
   }
 }
+
+UserInfo.propTypes = {
+  avatar: PropTypes.string,
+  name: PropTypes.string,
+  username: PropTypes.string,
+};

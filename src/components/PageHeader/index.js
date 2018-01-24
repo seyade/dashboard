@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './PageHeader.scss';
 
 const PageHeader = (props) => {
@@ -7,6 +8,10 @@ const PageHeader = (props) => {
       <h1 className="page-header__title">{props.text}</h1>
     </header>
   );
+};
+
+PageHeader.propTypes = {
+  text: PropTypes.string,
 };
 
 export default PageHeader;

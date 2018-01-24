@@ -2,8 +2,8 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 
-import PersonalAccount from '../PersonalAccount';
-import AccountSettings from '../AccountSettings';
+import PersonalAccount from '../../containers/PersonalAccount';
+import AccountSettings from '../../containers/AccountSettings';
 
 import './Main.scss';
 

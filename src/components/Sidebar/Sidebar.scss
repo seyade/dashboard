@@ -33,6 +33,12 @@
     }
   }
 
+  &__sign-out {
+    a {
+      color: $appGrey;
+    }
+  }
+
   .icon {
     margin-right: 10px;
   }

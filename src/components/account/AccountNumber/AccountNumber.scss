@@ -1,0 +1,20 @@
+@import '../../../utils/styles/_variables.scss';
+
+.account-number {
+  text-align: center;
+  color: $appDarkGrey;
+  padding: 20px;
+
+  &__number {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+
+  &__title {
+    color: $appGrey;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}

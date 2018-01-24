@@ -6,7 +6,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Main from './Main';
 import Sidebar from '../components/Sidebar';
 
-import UserInfo from '../components/UserInfo';
+import UserInfo from '../containers/UserInfo';
 import MainMenu from '../components/MainMenu';
 
 // style
