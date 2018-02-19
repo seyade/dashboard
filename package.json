@@ -99,11 +99,14 @@
     "extends": "react-app"
   },
   "devDependencies": {
+    "body-parser": "^1.18.2",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "expect": "^22.1.0",
     "express": "^4.16.2",
+    "mongoose": "^5.0.1",
     "node-sass-chokidar": "0.0.3",
+    "nodemon": "^1.14.11",
     "sass-loader": "^6.0.6"
   }
 }
